@@ -17,9 +17,9 @@ function Header() {
         </div>
         {showProfileDropdown && (
           <div className="profile-dropdown">
-            <div className="dropdown-item active">View Profile</div>
-            <div className="dropdown-item active">My Postings</div>
             <div className="dropdown-item">View Profile</div>
+            <div className="dropdown-item">My Postings</div>
+            <div className="dropdown-item">My Organization</div>
             <div className="dropdown-item">Sign Out</div>
             <div className="theme-toggle">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
